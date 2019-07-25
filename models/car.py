@@ -9,9 +9,12 @@ class Car(db.Model, BaseModel):
 
     make = db.Column(db.String(40), nullable=False)
     model = db.Column(db.String(40), nullable=False)
-    # licence = db.Column(db.String(8), nullable=False)
-    top_speed = db.Column(db.Integer, unique=True, nullable=False)
+    top_speed = db.Column(db.Integer, nullable=False)
     engine_type = db.Column(db.String(20))
+    range = db.Column(db.Integer, nullable=False)
+    production_year = db.Column(db.Integer, nullable=False)
+    image = db.Column(db.String(300))
+
 
 class CarSchema(ma.ModelSchema):
 
