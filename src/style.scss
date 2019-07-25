@@ -6,7 +6,7 @@
 
 .page-container {
   background-image: url('./assets/electric_storm.jpeg');
-  height: 95vh;
+  height: 100vh;
   // padding-top: 10px;
   // margin-top: 20px;
   background-size: cover;
@@ -17,15 +17,16 @@ background-color: transparent;
 
 }
 
+
 .form{
   background: EEEEEE;
 }
 
 #login-form {
 width: 100%;
+height: 100%;
 display: block;
 padding: 10px 40px 40px;
-
 }
 
 .column{
@@ -38,9 +39,28 @@ padding: .75em;
 }
 
 .container{
-  background-color: white;
-  opacity: 0.70;
-  border-radius: 1rem;
+  background-color: #eeeeee;
+  opacity: 0.80;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
 
-  ;
+.input{
+border-radius: 2rem;
+}
+
+.button{
+  font-size: 10px;
+  border-radius: 2rem;
+  background-color: rgb(62, 107, 226);
+  color: white;
+  width: 100%;
+}
+
+.register{
+  background-color: white;
+  font-size: 10px;
+  padding: 5px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }

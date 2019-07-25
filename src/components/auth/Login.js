@@ -103,7 +103,7 @@ class Login extends React.Component {
           <form onSubmit={this.handleSubmit} className="form is-desktop " id="login-form">
 
             <div className="field">
-              <label className="label">Email</label>
+              <label className="label-1 is-centered">Sign In</label>
               <div className="control">
                 <input
                   className={`input ${this.state.error ? 'is-danger' : ''} `}
@@ -114,7 +114,7 @@ class Login extends React.Component {
               </div>
             </div>
             <div className="field">
-              <label className="label">Password</label>
+              <label className="label"></label>
               <div className="control">
                 <input
                   className={`input ${this.state.error ? 'is-danger' : ''} `}
@@ -126,10 +126,11 @@ class Login extends React.Component {
               </div>
               {this.state.error && <small className="help is-danger">{this.state.error}</small>}
             </div>
-            <button type="submit" className="button is-warning">Login</button>
+            <button type="submit" className="button">SIGN IN</button>
           </form>
-
-
+        </div>
+        <div className="register has-text-centered">
+          <a href="api/register">Create an account</a>
         </div>
       </div>
 
