@@ -35,7 +35,7 @@ class Login extends React.Component {
           <form onSubmit={this.handleSubmit} className="form is-desktop " id="login-form">
 
             <div className="field">
-              <label className="labelOne is-centered">Sign In</label>
+              <label className="login-title">Sign In</label>
               <div className="control">
                 <input
                   className={`input ${this.state.error ? 'is-danger' : ''} `}

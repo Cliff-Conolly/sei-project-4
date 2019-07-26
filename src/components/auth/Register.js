@@ -131,10 +131,10 @@ class Register extends React.Component {
       <div className="column is-4 is-offset-4">
         <div className="container-register">
           <form onSubmit={this.handleSubmit} id="reg-form">
-            <h2 className="title">Register</h2>
+            <h2 className="register-title">Create Account</h2>
 
             <div className="field">
-              <label className="label">Username</label>
+              <label className="label"></label>
               <div className="control">
                 <input
                   className="input"
@@ -146,7 +146,7 @@ class Register extends React.Component {
             </div>
 
             <div className="field">
-              <label className="label">Email</label>
+              <label className="label"></label>
               <div className="control">
                 <input
                   className="input"
@@ -158,7 +158,7 @@ class Register extends React.Component {
             </div>
 
             <div className="field">
-              <label className="label">Password</label>
+              <label className="label"></label>
               <div className="control">
                 <input
                   className="input"
@@ -171,7 +171,7 @@ class Register extends React.Component {
             </div>
 
             <div className="field">
-              <label className="label">Password Confirmation</label>
+              <label className="label"></label>
               <div className="control">
                 <input
                   className="input"
