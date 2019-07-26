@@ -74,25 +74,25 @@ class Login extends React.Component {
   constructor() {
     super()
 
-    this.state = { data: {}, error: '' }
+    this.state = { data: {} }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
-  handleChange({ target: { name, value } }) {
-    const data = { ...this.state.data, [name]: value }
-    this.setState({ data, error: '' })
+  handleChange({ target: { name, value }}) {
+    const data = {...this.state.data, [name]: value }
+    this.setState({ data })
   }
 
   handleSubmit(e) {
     e.preventDefault()
 
-    axios.post('/api/login', this.state.data)
+    axios.post('/api/cars', this.state.data)
       .then(res => {
         Auth.setToken(res.data.token)
-        this.props.history.push(`/users/${Auth.getUser()}`)
+        this.props.history.push('/cars')
       })
-      .catch(() => this.setState({ error: 'Invalid Crendentials' }))
+      .catch(err => console.log(err.response))
   }
 
   render() {
@@ -103,7 +103,7 @@ class Login extends React.Component {
           <form onSubmit={this.handleSubmit} className="form is-desktop " id="login-form">
 
             <div className="field">
-              <label className="label-1 is-centered">Sign In</label>
+              <label className="labelOne is-centered">Sign In</label>
               <div className="control">
                 <input
                   className={`input ${this.state.error ? 'is-danger' : ''} `}
@@ -129,7 +129,7 @@ class Login extends React.Component {
             <button type="submit" className="button">SIGN IN</button>
           </form>
         </div>
-        <div className="register has-text-centered">
+        <div className="login-register has-text-centered">
           <a href="api/register">Create an account</a>
         </div>
       </div>

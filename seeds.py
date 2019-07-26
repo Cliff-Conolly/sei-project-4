@@ -100,6 +100,15 @@ with app.app_context():
         image="https://amp.businessinsider.com/images/5b7d8b5f959f34fd0a8b5381-1334-1000.jpg"
     )
 
+    rivian = Car(
+        make="Rivian",
+        model="R1T",
+        top_speed="258",
+        engine_type="Electric",
+        range="400",
+        production_year="2020",
+        image="https://amp.businessinsider.com/images/5bfee55cc9570135e96d6049-1536-1152.jpg"
+    )
 
 
     comment_one = Comment(
@@ -133,6 +142,7 @@ with app.app_context():
     db.session.add(porsche)
     db.session.add(volkswagen)
     db.session.add(rimac)
+    db.session.add(rivian)
     db.session.add(comment_one)
     db.session.add(comment_two)
     db.session.add(comment_three)

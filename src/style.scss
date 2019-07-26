@@ -1,14 +1,12 @@
 
-.home-background{
-
+.body{
+// background-image: url('./assets/Tesla_Model_X.png')
 
 }
 
 .page-container {
   background-image: url('./assets/electric_storm.jpeg');
   height: 100vh;
-  // padding-top: 10px;
-  // margin-top: 20px;
   background-size: cover;
 }
 
@@ -19,7 +17,12 @@ background-color: transparent;
 
 
 .form{
-  background: EEEEEE;
+  height: 80px;
+}
+
+.labelOne{
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
 }
 
 #login-form {
@@ -57,7 +60,7 @@ border-radius: 2rem;
   width: 100%;
 }
 
-.register{
+.login-register{
   background-color: white;
   font-size: 10px;
   padding: 5px;

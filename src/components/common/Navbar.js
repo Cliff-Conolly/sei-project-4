@@ -12,8 +12,8 @@ const NavBar = () => {
       <div className="navbar-end">
         <Link to="/register" className="navbar-item is-size-6">Register</Link>
         <Link to="/login" className="navbar-item is-size-5">Log In</Link>
-        <Link to="/cars/new" className="navbar-item is-size-4 is-italic">New Wine</Link>
-        <Link to="/cars" className="navbar-item is-size-3">theCellar</Link>
+        <Link to="/cars/new" className="navbar-item is-size-4 is-italic">Create Car</Link>
+        <Link to="/cars" className="navbar-item is-size-3">Showroom</Link>
       </div>
     </nav>
   )
