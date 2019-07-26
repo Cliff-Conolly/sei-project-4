@@ -66,7 +66,7 @@ with app.app_context():
         production_year="2021",
         image="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/aston-project-003-101-1561374133.jpg",
         blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        image_2=""
+        image_2="https://pictures.topspeed.com/IMG/crop/201707/aston-martin-valkyri-3_1600x0w.jpg"
     )
 
     mclaren = Car(
@@ -78,7 +78,7 @@ with app.app_context():
         production_year="2019",
         image="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fnargessbanks%2Ffiles%2F2018%2F10%2FMcLaren-Speedtail-01.jpg",
         blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        image_2=""
+        image_2="https://i.ytimg.com/vi/RGSsy2afEdk/maxresdefault.jpg"
     )
 
     porsche = Car(
@@ -90,7 +90,7 @@ with app.app_context():
         production_year="2019",
         image="https://ev-database.uk/img/auto/Porsche_Mission_E/Porsche_Mission_E-01.jpg",
         blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        image_2=""
+        image_2="https://media.whatcar.com/wc-image/2018-10/p15_0787_a4_rgb.jpg"
     )
 
     volkswagen = Car(
@@ -102,7 +102,7 @@ with app.app_context():
         production_year="2022",
         image="https://amp.businessinsider.com/images/5a4d0394396e3741008b4921-1136-852.jpg",
         blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        image_2=""
+        image_2="https://uploads.volkswagen-newsroom.com/system/production/media/4622/images/d52fa3a75f567bde3ee3d40018d18ba875f43e93/DB2017AU01310_full.jpg"
     )
 
     rimac = Car(
@@ -114,7 +114,7 @@ with app.app_context():
         production_year="2020",
         image="https://amp.businessinsider.com/images/5b7d8b5f959f34fd0a8b5381-1334-1000.jpg",
         blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        image_2=""
+        image_2="https://www.rimac-automobili.com/ctwo/gallery/c_two-studio-rear-doors-up.jpg"
     )
 
     rivian = Car(
