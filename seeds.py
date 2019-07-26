@@ -126,7 +126,7 @@ with app.app_context():
         production_year="2020",
         image="https://amp.businessinsider.com/images/5bfee55cc9570135e96d6049-1536-1152.jpg",
         blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        image_2=""
+        image_2="https://www.topgear.com/sites/default/files/styles/fit_1960x1102/public/images/news-article/carousel/2018/11/f9c2deb4045d21d2409b5c74ebc1afb5/a._rivian_r1t_front_view.jpg"
     )
 
     lamborghini = Car(
@@ -138,7 +138,7 @@ with app.app_context():
         production_year="2019",
         image="https://static.designboom.com/wp-content/uploads/2017/11/lamborghini-terzo-millennio-designboom-10.jpg",
         blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        image_2=""
+        image_2="http://freshwallpapers.net/download/22582/2560x1600/download/lamborghini-terzo-millennio-2019.jpg"
     )
 
 
