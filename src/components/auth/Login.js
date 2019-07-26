@@ -87,7 +87,7 @@ class Login extends React.Component {
   handleSubmit(e) {
     e.preventDefault()
 
-    axios.post('/api/cars', this.state.data)
+    axios.post('/api/login', this.state.data)
       .then(res => {
         Auth.setToken(res.data.token)
         this.props.history.push('/cars')
@@ -98,7 +98,7 @@ class Login extends React.Component {
   render() {
     return (
       <div className="column is-4 is-offset-4">
-        <div className="container">
+        <div className="container-login">
 
           <form onSubmit={this.handleSubmit} className="form is-desktop " id="login-form">
 
@@ -129,7 +129,7 @@ class Login extends React.Component {
             <button type="submit" className="button">SIGN IN</button>
           </form>
         </div>
-        <div className="login-register has-text-centered">
+        <div className="create-account has-text-centered">
           <a href="api/register">Create an account</a>
         </div>
       </div>

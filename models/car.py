@@ -14,6 +14,8 @@ class Car(db.Model, BaseModel):
     range = db.Column(db.Integer, nullable=False)
     production_year = db.Column(db.Integer, nullable=False)
     image = db.Column(db.String(300))
+    blurb = db.Column(db.String(500))
+    image_2 = db.Column(db.String(300))
 
 
 class CarSchema(ma.ModelSchema):

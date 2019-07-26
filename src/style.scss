@@ -32,6 +32,15 @@ display: block;
 padding: 10px 40px 40px;
 }
 
+#reg-form{
+  width: 50%;
+  height: 100%;
+  display: block;
+  padding: 10px 40px 40px;
+  // background-color: red;
+
+}
+
 .column{
 display: block;
 flex-basis: 0;
@@ -41,11 +50,17 @@ padding: .75em;
 
 }
 
-.container{
+.container-login{
   background-color: #eeeeee;
   opacity: 0.80;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+
+.container-register{
+  background-color: #eeeeee;
+  opacity: 0.80;
+  border-radius: 1rem;
 }
 
 .input{
@@ -60,7 +75,7 @@ border-radius: 2rem;
   width: 100%;
 }
 
-.login-register{
+.create-account{
   background-color: white;
   font-size: 10px;
   padding: 5px;

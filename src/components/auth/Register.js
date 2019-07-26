@@ -28,8 +28,8 @@
 //   render() {
 //     console.log(this.state.data)
 //     return (
-//       <main>
-//         <section className="container">
+//       <div>
+//         <div className="container">
 //           <form onSubmit={this.handleSubmit}>
 //             <h2 className="title">Register</h2>
 //
@@ -86,8 +86,8 @@
 //             <button type="submit" className="button is-info">Submit</button>
 //
 //           </form>
-//         </section>
-//       </main>
+//         </div>
+//       </div>
 //     )
 //   }
 // }
@@ -96,15 +96,17 @@
 
 
 import React from 'react'
+import axios from 'axios'
+
 
 class Register extends React.Component {
   constructor() {
     super()
 
-    this.state ={ date: {} }
+    this.state ={ data: {} }
 
     this.handleChange = this.handleChange.bind(this)
-    this.handleChange = this.handleChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   handleChange( { target: { name, value}}) {
@@ -115,14 +117,20 @@ class Register extends React.Component {
   handleSubmit(e) {
     e.preventDefault()
     console.log('submitted')
+
+    axios.post('/api/register', this.state.data)
+      .then(() => {
+        this.props.history.push('/login')
+      })
+      .catch(err => console.log(err.response))
   }
 
   render() {
     console.log(this.state.data)
     return (
-      <main>
-        <section className="container">
-          <form onSubmit={this.handleSubmit}>
+      <div className="column is-4 is-offset-4">
+        <div className="container-register">
+          <form onSubmit={this.handleSubmit} id="reg-form">
             <h2 className="title">Register</h2>
 
             <div className="field">
@@ -155,8 +163,8 @@ class Register extends React.Component {
                 <input
                   className="input"
                   type="password"
-                  name="passwordConfirmation"
-                  placeholder="Password Confirmation"
+                  name="password"
+                  placeholder="Password"
                   onChange={this.handleChange}
                 />
               </div>
@@ -168,7 +176,7 @@ class Register extends React.Component {
                 <input
                   className="input"
                   type="password"
-                  name="passwordConfirmation"
+                  name="password_confirmation"
                   placeholder="Password Confirmation"
                   onChange={this.handleChange}
                 />
@@ -178,8 +186,8 @@ class Register extends React.Component {
             <button type="submit" className="button is-info">Submit</button>
 
           </form>
-        </section>
-      </main>
+        </div>
+      </div>
     )
   }
 }
