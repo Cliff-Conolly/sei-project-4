@@ -1,6 +1,21 @@
 
-.body{
-// background-image: url('./assets/Tesla_Model_X.png')
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  background: #e7e7ec;
+  font-size: 24px;
+  padding: 25px;
+  border-radius: 0.5rem;
+
+}
+
+.parallax{
+  background: url('./assets/highway_2.jpeg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50000px;
+  border-radius: 0.5rem;
+
 
 }
 
@@ -39,7 +54,7 @@ background-color: transparent;
 }
 .register-title{
 font-weight: 200px;
-// border-bottom: 1px solid #cccccc;
+border-bottom: 1px solid #cccccc;
 font-size: 2rem;
 margin: 15px 0 25px 0;
 text-align: center;
