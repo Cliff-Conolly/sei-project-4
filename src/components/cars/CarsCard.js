@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const CarsCard = ({model, make, top_speed, engine_type, range, production_year, image, id,blurb,image_2}) => (
-  <div className="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+  <div className="column is-three-fifths ">
     <Link to={`/cars/${id}`}>
       <div className="card">
 

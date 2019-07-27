@@ -23,7 +23,7 @@ class CarsIndex extends React.Component {
       <section className="section">
         <div className="container">
           <div className="columns is-mobile is-multiline">
-            {this.state.cars.map(car => (
+            {this.state.cars.map(car =>(
               <CarsCard key={car._id} {...car}/>
             ))}
           </div>

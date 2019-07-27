@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import Auth from '../../lib/Auth'
+import { Link } from 'react-router-dom'
 
 class Login extends React.Component {
   constructor() {
@@ -34,7 +35,7 @@ class Login extends React.Component {
 
           <form onSubmit={this.handleSubmit} className="form is-desktop " id="login-form">
 
-            <div className="field">
+            <div className="field_1">
               <label className="login-title">Sign In</label>
               <div className="control">
                 <input
@@ -62,7 +63,8 @@ class Login extends React.Component {
           </form>
         </div>
         <div className="create-account has-text-centered">
-          <a href="api/register">Create an account</a>
+          <Link to="/register" className="create_account ">Create Account</Link>
+          {/* <a href="api/register">Create an account</a> */}
         </div>
       </div>
 

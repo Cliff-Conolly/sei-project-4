@@ -28,7 +28,7 @@ with app.app_context():
         range="16",
         production_year="2020",
         image="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/ferrari_sf90_stradale_3_0.jpg",
-        blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        blurb="This is Ferrari’s first PHEV (plug-in hybrid vehicle) developing 986bhp, or a nice round 1000cv if you’re Italian. Doing the heavy lifting in the power stakes is a heavily revised version of Ferrari’s twin-turbo V8, which delivers 769bhp. The headline is that the SF90 Stradale produces 390kg of downforce at 155mph. It seems the SF90 is set to redefine our understanding of rapid, being the fastest series production Ferrari of all time. Thanks to AWD and hybrid tech, the SF90 will propel its lucky occupants from 0–62mph in 2.5 seconds and 0–124mph in 6.7.",
         image_2="https://www.topgear.com/sites/default/files/styles/fit_1960x1102/public/images/news-article/carousel/2019/05/73b2f9ff386e3cf631a99f09addc4b39/ferrari_sf90_stradale_assetto_fiorano.jpg"
         )
 
