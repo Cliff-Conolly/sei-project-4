@@ -13,7 +13,7 @@ class Auth {
 }
 
 export const registerUser = (userData) => {
-  axios.post('http://localhost:5000/api/register', {user: userData})
+  axios.post('http://localhost:8000/api/register', {user: userData})
 
 
 }
