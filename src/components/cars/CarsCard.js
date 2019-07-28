@@ -22,7 +22,7 @@ const CarsCard = ({model, make, top_speed, engine_type, range, production_year, 
           <h6 className="subtitle is-6">Range: {range} miles</h6>
           <h6 className="subtitle is-6">Top Speed: {top_speed} mph</h6>
           <h6 className="subtitle is-6">Production Year: {production_year}</h6>
-          <h6 className="subtitle is-6">{blurb}</h6>
+          <h6 className="subtitle is-6" id="blurb">{blurb}</h6>
         </div>
 
         <div className="card-image_2">
