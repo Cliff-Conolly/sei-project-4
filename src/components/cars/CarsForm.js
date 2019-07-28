@@ -3,7 +3,7 @@ import React from 'react'
 const CarsForm = ({ data, handleChange, handleSubmit }) => (
   <form onSubmit={handleSubmit}>
     <div className="field">
-      <label className="label">Image</label>
+      <label className="label">Input an HTTP image address here: </label>
       <div className="control">
         <input
           className="input"
@@ -99,7 +99,7 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
       </div>
     </div>
     <div className="field">
-      <label className="label">Image 2</label>
+      <label className="label">Input an HTTP image address here: </label>
       <div className="control">
         <input
           className="input"
@@ -110,7 +110,7 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
         />
       </div>
     </div>
-    <button type="submit" className="button is-info">Submit</button>
+    <button type="submit" className="submit-button is-info">Submit</button>
   </form>
 )
 
