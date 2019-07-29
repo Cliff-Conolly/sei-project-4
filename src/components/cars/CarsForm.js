@@ -90,7 +90,7 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
       <label className="label">Blurb</label>
       <div className="control">
         <textarea
-          className="input"
+          className="blurb-input" 
           name="blurb"
           placeholder="Blurb"
           onChange={handleChange}
