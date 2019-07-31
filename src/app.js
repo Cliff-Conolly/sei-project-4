@@ -6,7 +6,7 @@ import './style.scss'
 // import css from 'file.css'
 
 import Home from './components/common/Home'
-import NavBar from './components/common/NavBar'
+import NavBar from './components/common/Navbar'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import PageContainer from './components/common/PageContainer'
