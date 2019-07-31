@@ -1,21 +1,21 @@
 import React from 'react'
 
 const CarsForm = ({ data, handleChange, handleSubmit }) => (
-  <form onSubmit={handleSubmit}>
+  <form className="carsform" onSubmit={handleSubmit}>
     <div className="field">
-      <label className="label">Input an HTTP image address here: </label>
+      <label className="label"></label>
       <div className="control">
         <input
           className="input"
           name="image"
-          placeholder="Image"
+          placeholder="Input an HTTP image address here:"
           onChange={handleChange}
           value={data.image || ''}
         />
       </div>
     </div>
     <div className="field">
-      <label className="label">Make</label>
+      <label className="label"></label>
       <div className="control">
         <input
           className="input"
@@ -27,7 +27,7 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
       </div>
     </div>
     <div className="field">
-      <label className="label">Model</label>
+      <label className="label"></label>
       <div className="control">
         <input
           className="input"
@@ -39,11 +39,11 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
       </div>
     </div>
     <div className="field">
-      <label className="label">Engine Type</label>
+      <label className="label"></label>
       <div className="control">
         <textarea
           className="input"
-          name="engine type"
+          name="engine_type"
           placeholder="Engine Type"
           onChange={handleChange}
           value={data.engine_type || ''}
@@ -51,7 +51,7 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
       </div>
     </div>
     <div className="field">
-      <label className="label">Range</label>
+      <label className="label"></label>
       <div className="control">
         <textarea
           className="input"
@@ -63,7 +63,7 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
       </div>
     </div>
     <div className="field">
-      <label className="label">Top Speed</label>
+      <label className="label"></label>
       <div className="control">
         <textarea
           className="input"
@@ -75,7 +75,7 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
       </div>
     </div>
     <div className="field">
-      <label className="label">Production Year</label>
+      <label className="label"></label>
       <div className="control">
         <textarea
           className="input"
@@ -87,24 +87,24 @@ const CarsForm = ({ data, handleChange, handleSubmit }) => (
       </div>
     </div>
     <div className="field">
-      <label className="label">Blurb</label>
+      <label className="label"></label>
       <div className="control">
         <textarea
-          className="blurb-input" 
+          className="blurb-input"
           name="blurb"
-          placeholder="Blurb"
+          placeholder="Notes:"
           onChange={handleChange}
           value={data.blurb || ''}
         />
       </div>
     </div>
     <div className="field">
-      <label className="label">Input an HTTP image address here: </label>
+      <label className="label"></label>
       <div className="control">
         <input
           className="input"
           name="image_2"
-          placeholder="Image 2"
+          placeholder="Input an HTTP image address here:"
           onChange={handleChange}
           value={data.image_2|| ''}
         />

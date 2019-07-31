@@ -25,7 +25,7 @@ class CarsIndex extends React.Component {
           <div className="parallax">
             <div className="columns is-mobile is-multiline">
               {this.state.cars.map(car =>(
-                <CarsCard key={car._id} {...car}/>
+                <CarsCard key={car.id} {...car}/>
               ))}
             </div>
           </div>
@@ -36,3 +36,8 @@ class CarsIndex extends React.Component {
 }
 
 export default CarsIndex
+
+
+// <video controls>
+//   <source src="./assets/electric_car_build.mp4" type="video/mp4" />
+// </video>

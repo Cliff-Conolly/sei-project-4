@@ -20,7 +20,7 @@ class CarsNew extends React.Component {
   handleSubmit(e) {
     e.preventDefault()
 
-    axios.get('/api/cars', this.state.data,{
+    axios.post('/api/cars', this.state.data,{
       headers: { Authorization: `Bearer ${Auth.getToken()}`}
     })
       .then(() => this.props.history.push('/cars'))
