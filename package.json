@@ -1,5 +1,5 @@
 {
-  "name": "sei-project-4",
+  "name": "Tor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "build": "webpack -p",
     "postinstall": "[ \"$NODE_ENV\" = \"production\" ] && yarn build || exit 0"
   },
-  "author": "",
+  "author": "Cliff Conolly <cliffconolly@protonmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -41,5 +41,6 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1"
-  }
+  },
+  "repository": "git@github.com:Cliff-Conolly/sei-project-4.git"
 }
