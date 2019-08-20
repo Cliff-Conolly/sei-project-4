@@ -113,7 +113,7 @@ with app.app_context():
         range="402",
         production_year="2020",
         image="https://amp.businessinsider.com/images/5b7d8b5f959f34fd0a8b5381-1334-1000.jpg",
-        blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        blurb="Croatia’s Rimac Automobili built a very, very fast all-electric hypercar called the Concept Two. It claims to have a 1,914-horsepower engine that enables a 0 to 60 mph acceleration in 1.85 seconds. That would make it one of the quickest cars in existence, quicker than the next-generation Tesla Roadster with its comparatively sluggish 0–60 in 1.9 seconds. Rimac says its 120 kWh battery enables over 400 miles of range, which is a lot more than the 200 miles found in most production EVs. And facial recognition technology will both unlock and start the car, which makes this car the perfect distillation of our current moment of technology and hype.",
         image_2="https://www.rimac-automobili.com/ctwo/gallery/c_two-studio-rear-doors-up.jpg"
     )
 
@@ -123,9 +123,9 @@ with app.app_context():
         top_speed="125",
         engine_type="All Electric",
         range="400",
-        production_year="2020",
+        production_year="2021",
         image="https://amp.businessinsider.com/images/5bfee55cc9570135e96d6049-1536-1152.jpg",
-        blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        blurb="The futuristic Rivian R1T is an all-electric pickup truck from new American startup brand Rivian, and it promises more than 400 miles of driving range and acceleration times comparable with those of a supercar. All-wheel drive is standard on the 2021 R1T thanks to an arrangement similar to the Tesla Model X, where each axle is powered by its own electric motor. A range of 105-, 135-, and 180-kWh battery packs will be available, with ranges of more than 230, 300, and 400 miles, respectively. The 135-kWh model is the quickest of the three, with 754 horsepower and a claimed zero-to-60-mph time of 3.0 seconds. Every version of the R1T has all-wheel drive, with an electric motor at each wheel, and Rivian says that every R1T can tow more than 11,000 pounds.",
         image_2="https://www.topgear.com/sites/default/files/styles/fit_1960x1102/public/images/news-article/carousel/2018/11/f9c2deb4045d21d2409b5c74ebc1afb5/a._rivian_r1t_front_view.jpg"
     )
 
@@ -137,7 +137,7 @@ with app.app_context():
         range="000",
         production_year="2019",
         image="https://static.designboom.com/wp-content/uploads/2017/11/lamborghini-terzo-millennio-designboom-10.jpg",
-        blurb="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        blurb="The Terzo Millennio uses high-capacity supercapacitors in lieu of batteries, due to their more rapid storage and discharge of energy. These supercapacitors have been made to simultaneously capture and release energy to give the car an increase in high performance, without having the depend on chemical reactions. Each wheel, the rims of which glow orange, contains an electric motor, so that the amount of torque can be controlled individually, making the car's stability as good as a modern Formula One car. Because there is a motor on every rim, the car would be all-wheel drive if it were a running model.",
         image_2="http://freshwallpapers.net/download/22582/2560x1600/download/lamborghini-terzo-millennio-2019.jpg"
     )
 
