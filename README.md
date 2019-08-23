@@ -6,11 +6,11 @@ Project 4 by:  Cliff Conolly
 
 ## Introduction
 
-Tor is an app that use Python and Flask for the backend and an internal API. It is modeled after Wikipedia in that it is a database which lists current and future all electric and hybrid electric vehicles. It allows users to view the vehicles only, but only 'registered' users can add vehicles to the database.
+Tor is an app that use Python and Flask for the backend and an internal API. It is modeled after Wikipedia in that it is a database which lists current and future all electric and hybrid electric vehicles. It allows all users to view the vehicles from the homepage, but only 'registered' users can add vehicles to the database.
 
 
 Timeframe:
-1 week (June 2019)
+1 week (July 2019)
 
 
 ## Technologies used:
