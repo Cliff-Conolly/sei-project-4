@@ -53,13 +53,12 @@ Once registered users are able to create a vehicle by clicking the 'Forge' butto
 
 ---
 
-## Wins:
+## Wins & Challenges:
 
-Setting up the backend with Python and Flask was a little tricky given that we had about 4 days getting familiar with them. Therefore getting them to work without breaking at the onset was very rewarding, and I could then concentrate on the frontend.
+I've decided to put these two categories together because their relationship is quite symbiotic. Before the project started we had a 3 day review of Python & Flask, and from the onset I could see that it would require detailed note taking. In addition I videoed our teacher who gave a summary at the end of each day of what we had done. This was priceless and it took many hours to put down on paper because I was very meticulous with the details. To this day I thank my past self for this, because when the project started right after being taught (foresight by the teacher), it made the backend almost effortless to re-do. Therefore, this was my greatest challenge and win on this project.
 
----
 
-## Challenges:
+![Notes](src/assets/screenshots/notes.gif)
 
 ---
 
@@ -72,6 +71,10 @@ Before and during the process, hand sketches were drawn to show possible relatio
 ---
 
 ## Bugs:
+
+There is a bug when the user clicks an image of a vehicle in the 'Stable' page that lists all of them. The error is occurring in the <CarsShow> component and being caught during rendering, and can probably be fixed with adding an 'error boundary' to the child component tree to help with error handling behavior.
+
+![Bug](src/assets/screenshots/bug.gif)
 
 ---
 
