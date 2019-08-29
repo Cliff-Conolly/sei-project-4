@@ -4,7 +4,7 @@ Project 4 by:  Cliff Conolly
 
 ---
 
-## Introduction
+## Introduction:
 
 Tor is an app that use Python and Flask for the backend and an internal API. It is modeled after Wikipedia in that it is a database which lists current and future all electric and hybrid electric vehicles. It allows all users to view the vehicles from the homepage, but only 'registered' users can add vehicles to the database.
 
@@ -53,17 +53,52 @@ Once registered users are able to create a vehicle by clicking the 'Forge' butto
 
 ---
 
-## Wins
+## Wins:
 
 Setting up the backend with Python and Flask was a little tricky given that we had about 4 days getting familiar with them. Therefore getting them to work without breaking at the onset was very rewarding, and I could then concentrate on the frontend.
+
+---
+
+## Challenges:
+
+---
+
+## Process:
 
 ---
 
 ## Future features
 
 - Going forward I will continue to work on the app and allow it to be able to consume data from an external API to get charging points throughout London.
+- In addition I will also touch up on some of the styling.
 
 ---
+
+## API Documentation
+
+#### Sample of Seeds:
+
+###### 1. Create a car:
+
+```
+ferrari = Car(
+      make="Ferrari",
+      model="SF90",
+      top_speed="211",
+      engine_type="Hybrid Electric",
+      range="16",
+      production_year="2020",
+      image="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/ferrari_sf90_stradale_3_0.jpg",
+      blurb="This is Ferrari’s first PHEV (plug-in hybrid vehicle) developing 986bhp, or a nice round 1000cv if you’re Italian. Doing the heavy lifting in the power stakes is a heavily revised version of Ferrari’s twin-turbo V8, which delivers 769bhp. The headline is that the SF90 Stradale produces 390kg of downforce at 155mph. It seems the SF90 is set to redefine our understanding of rapid, being the fastest series production Ferrari of all time. Thanks to AWD and hybrid tech, the SF90 will propel its lucky occupants from 0–62mph in 2.5 seconds and 0–124mph in 6.7.",
+      image_2="https://www.topgear.com/sites/default/files/styles/fit_1960x1102/public/images/news-article/carousel/2019/05/73b2f9ff386e3cf631a99f09addc4b39/ferrari_sf90_stradale_4.jpg"
+      )
+```
+
+###### 2. Add the car to the database:
+
+```
+db.session.add(ferrari)
+```
 
 
 ### Live site: https://tor-electric.herokuapp.com/cars
