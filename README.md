@@ -113,4 +113,4 @@ db.session.add(ferrari)
 ```
 
 
-### Live site: https://tor-electric.herokuapp.com/cars
+### Deployed here: https://tor-electric.herokuapp.com/cars
