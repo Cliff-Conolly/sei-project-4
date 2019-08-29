@@ -72,7 +72,7 @@ Before and during the process, hand sketches were drawn to show possible relatio
 
 ## Bugs:
 
-There is a bug when the user clicks an image of a vehicle in the 'Stable' page that lists all of them. The error is occurring in the <CarsShow> component and being caught during rendering, and can probably be fixed with adding an 'error boundary' to the child component tree to help with error handling behavior.
+There is a bug when the user clicks an image of a vehicle in the 'Stable' page that lists all of them. The error is occurring in the 'CarsShow' component and being caught during rendering, and can probably be fixed with adding an 'error boundary' to the child component tree to help with error handling behavior.
 
 ![Bug](src/assets/screenshots/bug.gif)
 
