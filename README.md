@@ -38,11 +38,11 @@ The homepage allows users to sign in if they would like to add a new vehicle to 
 ###### Sign In & Stable
 ![Sign In & Stable](src/assets/screenshots/sign_in.gif)
 
+Non-registered users are able to register (see below) via the 'Sign In' form by clicking the 'Create Account' button.
+
 
 ###### Register
 ![Register](src/assets/screenshots/register.gif)
-
-Non-registered users are able to register (see below) via the 'Sign In' form by clicking the 'Create Account' button.
 
 
 Once registered users are able to create a vehicle by clicking the 'Forge' button (see below).
@@ -71,7 +71,11 @@ Before and during the process, hand sketches were drawn to show possible relatio
 
 ---
 
-## Future features
+## Bugs:
+
+---
+
+## Future features:
 
 - Going forward I will continue to work on the app and allow it to be able to consume data from an external API to get charging points throughout London.
 - There is an mp4 file for the 'Forge' interface that I want to embed and will research on how to do that.
