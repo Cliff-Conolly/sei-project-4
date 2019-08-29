@@ -65,6 +65,10 @@ Setting up the backend with Python and Flask was a little tricky given that we h
 
 ## Process:
 
+Before and during the process, hand sketches were drawn to show possible relationships between models for SQLAlchemy and concepts for the frontend user interface. 
+
+![Process](src/assets/screenshots/TorProcess.gif)
+
 ---
 
 ## Future features
