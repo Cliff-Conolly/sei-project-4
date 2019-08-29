@@ -65,7 +65,7 @@ Setting up the backend with Python and Flask was a little tricky given that we h
 
 ## Process:
 
-Before and during the process, hand sketches were drawn to show possible relationships between models for SQLAlchemy and concepts for the frontend user interface. 
+Before and during the process, hand sketches were drawn to show possible relationships between models for SQLAlchemy and concepts for the frontend user interface.
 
 ![Process](src/assets/screenshots/TorProcess.gif)
 
@@ -74,6 +74,7 @@ Before and during the process, hand sketches were drawn to show possible relatio
 ## Future features
 
 - Going forward I will continue to work on the app and allow it to be able to consume data from an external API to get charging points throughout London.
+- There is an mp4 file for the 'Forge' interface that I want to embed and will research on how to do that.
 - In addition I will also touch up on some of the styling.
 
 ---
