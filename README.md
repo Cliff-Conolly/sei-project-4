@@ -74,6 +74,8 @@ Before and during the process, hand sketches were drawn to show possible relatio
 
 There was a bug when the user clicked an image of a vehicle in the 'Stable' page that lists all of them. Upon clicking the image the page went blank. The console indicated that it was a 'TypeError'. I then realised that I was trying to access users related to cars on the front end which didn't exist in the model background. I therefore had to decide whether to update the model so that cars had related owner users, or to update the front end to remove code which accessed users related to cars. I decided to remove checks for related users from the front end, as it wasn't relevant at this point and could be incorporated in future iterations.
 
+Additionally, I then decided to have the images clickable of which now I have a generic placeholder of the car and will add more design to it going forward. I might also decide to have it display different information given that this function only duplicates what was initially output. 
+
 
 ![Bug](src/assets/screenshots/bug.gif)
 
