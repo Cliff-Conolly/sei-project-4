@@ -72,7 +72,8 @@ Before and during the process, hand sketches were drawn to show possible relatio
 
 ## Bugs:
 
-There is a bug when the user clicks an image of a vehicle in the 'Stable' page that lists all of them. The error is occurring in the 'CarsShow' component and being caught during rendering, and can probably be fixed with adding an 'error boundary' to the child component tree to help with error handling behavior.
+There was a bug when the user clicked an image of a vehicle in the 'Stable' page that lists all of them. Upon clicking the image the page went blank. The console indicated that it was a 'TypeError'. I then realised that I was trying to access users related to cars on the front end which didn't exist in the model background. I therefore had to decide whether to update the model so that cars had related owner users, or to update the front end to remove code which accessed users related to cars. I decided to remove checks for related users from the front end, as it wasn't relevant at this point and could be incorporated in future iterations.
+
 
 ![Bug](src/assets/screenshots/bug.gif)
 
