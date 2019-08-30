@@ -26,39 +26,37 @@ class CarsShow extends React.Component {
       .catch(err => console.log(err.response))
   }
 
-  isOwner() {
-    return Auth.getPayload().sub === this.state.car.user._id
-  }
+  // Don't need for now
+  // isOwner() {
+  //   return Auth.getPayload().sub ===
+  //  this.state.car.user._id
+  // }
 
   render() {
     if (!this.state.car) return null
     const { car } =  this.state
-    this.isOwner()
+    // this.isOwner()
     return (
       <section className="section">
         <div className="container">
-          <h2 className="title">{car.name}</h2>
+          <h2 className="title">{car.make} {car.model}</h2>
+
           <hr />
           <div className="columns">
             <div className="column is-half">
               <figure className="image">
-                <img src={car.image} alt={car.name} />
+                <img src={car.image} alt={car.make} />
               </figure>
             </div>
             <div className="column is-half">
-              <h4 className="title is-4">Comments</h4>
-              <p>{car.comments}</p>
+
+              <h4 className="title is-4">Top Speed</h4>
+              <p>{car.top_speed}</p>
               <hr />
-              <h4 className="title is-4">Origin</h4>
-              <p>{car.origin}</p>
+              <h4 className="title is-4">Production Year</h4>
+              <p>{car.production_year}</p>
               <hr />
-              {this.isOwner() && <Link
-                className="button is-warning"
-                to={`/cars/${car._id}/edit`}
-              >
-                Edit
-              </Link>}
-              {this.isOwner() && <button onClick={this.handleDelete} className="button is-danger">Delete</button>}
+
             </div>
           </div>
         </div>
