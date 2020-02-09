@@ -31,7 +31,7 @@ Tor is an app that use Python and Flask for the backend and an internal API. It 
 
 
 ###### Homepage
-![Home Page](src/assets/screenshots/homepage.png)
+![Home Page](src/assets/screenshots/homepage.jpg)
 
 The homepage allows users to sign in if they would like to add a new vehicle to the database or non-registered users to just be able to view the collection of vehicles (see below) via the 'Stable' button.
 
@@ -49,7 +49,7 @@ Once registered users are able to create a vehicle by clicking the 'Forge' butto
 
 
 ###### Forge
-![Forge](src/assets/screenshots/forge.png)
+![Forge](src/assets/screenshots/forge.jpg)
 
 ---
 
